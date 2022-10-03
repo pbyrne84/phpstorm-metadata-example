@@ -58,9 +58,9 @@ a(new DOMDocument())->cloneNode();
 a(DOMDocument::class)->cloneNode(); 
 ```
 
-Though it also does not seem to be able to return a collection of the generic type using.
-```php
-// @return T[]
+Though it also does not seem to be able to return a collection of the generic type using :-
+```txt
+@return T[]
 ```
 
 There might be a hidden way or someone somewhere may standardise it if poked enough.
